@@ -109,7 +109,6 @@ def setup_dotfiles(i):
 
 
 try:
-    archinstall.SysCommand('umount -R /mnt')
 
     archinstall.set_keyboard_language(KEYMAP)
     archinstall.validate_package_list(dependencies)
